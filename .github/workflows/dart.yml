@@ -35,8 +35,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: dart-lang/setup-dart@v1.5.0
-        with:
-          sdk: ${{ matrix.sdk }}
 
       - id: install
         name: Install dependencies

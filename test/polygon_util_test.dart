@@ -1,4 +1,3 @@
-import 'package:latlong2/latlong.dart';
 import 'package:maps_toolkit2/maps_toolkit2.dart';
 import 'package:test/test.dart';
 

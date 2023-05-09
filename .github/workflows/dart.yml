@@ -27,15 +27,6 @@ jobs:
         run: dart analyze --fatal-warnings --fatal-infos --verbose .
         if: always() && steps.install.outcome == 'success'
 
-
-
-
-      - name: Report Coveralls
-        uses: coverallsapp/github-action@v2
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: coverage/lcov.info
-
   # Run tests on a matrix consisting of two dimensions:
   # 1. OS: ubuntu-latest, macos-latest, windows-latest
   # 2. release channel: stable

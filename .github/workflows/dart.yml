@@ -23,6 +23,9 @@ jobs:
       - name: Analyze project source
         run: dart analyze --fatal-warnings --fatal-infos --verbose .
 
+      - name: Report Coveralls
+        uses: coverallsapp/github-action@v2
+
   test:
     runs-on: ${{ matrix.os }}
     strategy:
@@ -41,9 +44,6 @@ jobs:
 
       - name: Run tests
         run: dart test
-
-      - name: Report Coveralls
-        uses: coverallsapp/github-action@v2
 
   deploy:
     runs-on: ubuntu-latest

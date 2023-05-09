@@ -18,7 +18,7 @@ In your dart/flutter project add the dependency:
 A simple usage example:
 
 ```dart
-import 'package:maps_toolkit2/maps_toolkit.dart';
+import 'package:maps_toolkit2/maps_toolkit2.dart';
 
 main() {
   val distanceBetweenPoints = SphericalUtil.computeDistanceBetween(
@@ -38,7 +38,7 @@ main() {
 Usage with Google Maps package (specify a prefix for an import):
 
 ```dart
-import 'package:maps_toolkit/maps_toolkit2.dart' as mp;
+import 'package:maps_toolkit2/maps_toolkit2.dart' as mp;
 import 'package:google_maps/google_maps.dart';
 import 'package:test/test.dart';
 

@@ -1,3 +1,7 @@
+## 1.0.1+1
+
+  - Documentation update: add badge to README.md
+  
 ## 1.0.1
 
   - Export LatLong2

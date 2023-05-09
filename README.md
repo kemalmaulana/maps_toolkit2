@@ -3,16 +3,26 @@ maps_toolkit2
 
 This is a fork of https://github.com/kb0/maps_toolkit. **The goal is to make it compatible with flutter_map**
 
+
+[![Pub Package](https://img.shields.io/pub/v/maps_toolkit2.svg)](https://pub.dartlang.org/packages/maps_toolkit2)
+[![Dart Publish](https://github.com/faqcodes/maps_toolkit2/actions/workflows/publish.yml/badge.svg)](https://github.com/faqcodes/maps_toolkit2/actions/workflows/publish.yml)
+[![Coverage Status](https://coveralls.io/repos/github/faqcodes/maps_toolkit2/badge.svg?branch=main)](https://coveralls.io/github/faqcodes/maps_toolkit2?branch=main)
+[![GitHub Issues](https://img.shields.io/github/issues/faqcodes/maps_toolkit2.svg?branch=main)](https://github.com/faqcodes/maps_toolkit2/issues)
+[![GitHub Forks](https://img.shields.io/github/forks/faqcodes/maps_toolkit2.svg?branch=main)](https://github.com/faqcodes/maps_toolkit2/network)
+[![GitHub Stars](https://img.shields.io/github/stars/faqcodes/maps_toolkit2.svg?branch=main)](https://github.com/faqcodes/maps_toolkit2/stargazers)
+[![GitHub License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://github.com/faqcodes/maps_toolkit2/main/LICENSE)
+
+
 A library for area, distance, heading measurements (spherical_util.dart if port from `android-maps-utils`).
 
 ## Getting Started
 
 In your dart/flutter project add the dependency:
 
-```
+```dart
  dependencies:
    ...
-   maps_toolkit2: ^1.0.0
+   maps_toolkit2: ^1.0.1
 ```
 
 A simple usage example:

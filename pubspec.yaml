@@ -1,7 +1,9 @@
 name: maps_toolkit2
 description: Maps toolkit - geo-measurements utils - area of polygon, distance between point, heading and offset between points (port of SphericalUtil, PolyUtil from `android-maps-utils`).
 version: 1.0.1
-homepage: https://github.com/faqcodes/maps_toolkit2/
+homepage: https://github.com/faqcodes/maps_toolkit2
+repository: https://github.com/faqcodes/maps_toolkit2
+issue_tracker: https://github.com/faqcodes/maps_toolkit2/issues
 
 environment:
   sdk: '>=2.17.0 <3.0.0'

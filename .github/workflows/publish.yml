@@ -1,5 +1,5 @@
 # A CI configuration to auto-publish pub packages.
-name: Publish to pub.dev
+name: Dart CI Publish # publish to pub.dev
 
 on:
   push:

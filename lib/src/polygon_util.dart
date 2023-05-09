@@ -2,7 +2,7 @@ import 'dart:collection';
 import 'dart:math';
 
 import 'package:latlong2/latlong.dart';
-import 'package:maps_toolkit/src/spherical_util.dart';
+import 'package:maps_toolkit2/src/spherical_util.dart';
 
 // import 'latlng_.dart';
 import 'math_util.dart';

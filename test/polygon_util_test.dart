@@ -1,5 +1,5 @@
 import 'package:latlong2/latlong.dart';
-import 'package:maps_toolkit/maps_toolkit.dart';
+import 'package:maps_toolkit2/maps_toolkit.dart';
 import 'package:test/test.dart';
 
 /// Asserts that the beginning point of the original line matches the beginning

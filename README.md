@@ -1,14 +1,7 @@
-maps_toolkit
+maps_toolkit2
 ======
 
-[![Pub Package](https://img.shields.io/pub/v/maps_toolkit.svg)](https://pub.dartlang.org/packages/maps_toolkit)
-[![Build Status](https://travis-ci.org/kb0/maps_toolkit.svg?branch=master)](https://travis-ci.org/kb0/maps_toolkit)
-[![Coverage Status](https://coveralls.io/repos/github/kb0/maps_toolkit/badge.svg?branch=master)](https://coveralls.io/github/kb0/maps_toolkit?branch=master)
-[![GitHub Issues](https://img.shields.io/github/issues/kb0/maps_toolkit.svg?branch=master)](https://github.com/kb0/maps_toolkit/issues)
-[![GitHub Forks](https://img.shields.io/github/forks/kb0/maps_toolkit.svg?branch=master)](https://github.com/kb0/maps_toolkit/network)
-[![GitHub Stars](https://img.shields.io/github/stars/kb0/maps_toolkit.svg?branch=master)](https://github.com/kb0/maps_toolkit/stargazers)
-[![GitHub License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/kb0/maps_toolkit/master/LICENSE)
-
+This is a fork of https://github.com/kb0/maps_toolkit. **The goal is to make it compatible with flutter_map**
 
 A library for area, distance, heading measurements (spherical_util.dart if port from `android-maps-utils`).
 
@@ -19,13 +12,13 @@ In your dart/flutter project add the dependency:
 ```
  dependencies:
    ...
-   maps_toolkit: ^3.0.0
+   maps_toolkit2: ^1.0.0
 ```
 
 A simple usage example:
 
 ```dart
-import 'package:maps_toolkit/maps_toolkit.dart';
+import 'package:maps_toolkit/maps_toolkit2.dart';
 
 main() {
   val distanceBetweenPoints = SphericalUtil.computeDistanceBetween(
@@ -45,12 +38,12 @@ main() {
 Usage with Google Maps package (specify a prefix for an import):
 
 ```dart
-import 'package:maps_toolkit/maps_toolkit.dart' as mp;
+import 'package:maps_toolkit/maps_toolkit2.dart' as mp;
 import 'package:google_maps/google_maps.dart';
 import 'package:test/test.dart';
 
 void main() {
-  final pointFromToolkit = mp.LatLng(90, 0);
+  final pointFromToolkit = LatLng(90, 0);
   final pointFromGoogleMap = LatLng(90, 0);
 
   mp.SphericalUtil.computeAngleBetween(pointFromToolkit, pointFromToolkit);
